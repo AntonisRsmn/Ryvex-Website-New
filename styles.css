@@ -1,0 +1,207 @@
+:root {
+    --clr-text: #fffffe;
+    --clr-background: #252525;
+    --clr-back-dark: #121212;
+    --clr-primary: #505050;
+    --clr-rgba-primary:rgba(0, 136, 169, 1);
+    --clr-rgba-blue-primary:rgba(0, 136, 169, 0.8);
+    --clr-black: #000000;
+    --clr-glow: #ffffff;
+    --clr-discord: #313338;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;  
+    padding: 0;
+}
+
+body {
+    background-color: var(--clr-background);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Google Font */
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Nav Bar */
+li, a, button {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--clr-text);
+    text-decoration: none;  
+}
+
+.nav-links-r a {
+    font-weight: 800;
+    font-size: 18px;  
+}
+
+button {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 17px;
+    color: var(--clr-text);
+    text-decoration: none;  
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: var(--clr-back-dark);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-links, .nav-links-r {
+    list-style: none;
+}
+
+.nav-links li, .nav-links-r li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a, .nav-links-r li a {
+    transition: all 0.3S ease 0S;
+}
+
+.nav-links li a:hover, .nav-links-r li a:hover {
+    color: var(--clr-primary);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: var(--clr-back-dark);
+    border: 3px solid #fffffe;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3S ease 0S;
+}
+
+button:hover {
+    background-color: var(--clr-glow);
+    color: #000000;
+}
+
+/* Ryvex */
+.ryvex {
+    color: var(--clr-text);
+    display: inline-flex;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.title {
+    flex-direction: column;
+    padding-left: 10%;
+    width: 500px;
+    font-size: 18px;
+    font-family: "Rubik";
+    font-weight: 350;
+}
+
+.title h1 {
+    margin-bottom: 10%;
+    font-size: 42px;
+}
+
+.title button {
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: var(--clr-background);
+}
+
+.title button:hover {
+    background-color: var(--clr-glow);
+    color: #000000;
+}
+
+.logo {
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px var(--clr-back-dark);
+}
+
+/* Description/Images */
+.desc {
+    background-color: var(--clr-discord);
+}
+
+.img-1, .img-3 {
+    color: var(--clr-text);
+    display: inline-flex;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    gap: 5%;
+}
+
+.img-2 {
+    color: var(--clr-text);
+    display: inline-flex;
+    padding-right: 3%;
+    flex-direction: row-reverse;
+    gap: 5%;
+    width: 100%;
+}
+
+.img-1 h4, .img-2 h4, .img-3 h4 {
+    width: 450px;
+    padding-top: 5%;
+    font-size: 18px;
+    font-family: "Rubik";
+    font-weight: 350;
+}
+
+.img-1 h1, .img-2 h1, .img-3 h1 {
+    width: 750px;
+    font-size: 22px;
+    padding-top: 10%;
+    font-family: "Rubik";
+}
+
+.img-2 h4 {
+    width: 850px;
+    padding-top: 5%;
+    font-size: 18px;
+    font-family: "Rubik";
+    font-weight: 350;
+    padding-left: 40%;
+}
+
+.img-2 h1 {
+    width: 850px;
+    font-size: 22px;
+    padding-top: 10%;
+    font-family: "Rubik";
+    padding-left: 40%;
+}
+
+/* Footer */
+footer {
+    background-color: var(--clr-back-dark);
+    color: var(--clr-text);
+    text-align: center;
+    padding: 1%;
+    font-family: "Rubik";
+}
