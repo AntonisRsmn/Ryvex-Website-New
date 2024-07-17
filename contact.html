@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryvex</title>
+    <link rel="icon" type="image/x-icon" href="Imgs/Ryvex-Logo.png" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Nav Bar -->
+    <header>
+      <ul class="nav-links-r">
+        <li><a href="index.html">Ryvex</a></li>
+      </ul>
+      <nav>
+        <ul class="nav-links">
+          <li><a onclick="window.open('https://discord.com/api/oauth2/authorize?client_id=1014993899871285289&permissions=4398046511095&scope=bot%20applications.commands','_blank')">Add To Discord</a></li>
+          <li><a onclick="window.open('https://discord.gg/JDDSbxKDne','_blank')">Support Serveer</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms Of Services</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#"><button>Contact</button></a>
+    </header>
+
+    <!-- Contact Form -->
+    <form action="https://formspree.io/f/xzbnjylb" method="POST">
+        <h1>Contact Form</h1>
+        <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+        <input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+        <input type="email" name="email" placeholder="Email Address" autocomplete="off" required>
+        <textarea rows="5" cols="60" name="message" placeholder="Enter Text" autocomplete="off" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Footer -->
+    <footer>
+      <p class="footer_text">Ryvex © 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
