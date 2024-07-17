@@ -284,82 +284,18 @@ form button {
     font-family: "Rubik";
 }
 
-/* Responsive Screen */
-@media screen and (max-width: 1300px) {
-    
-    .img-1 h4, .img-2 h4, .img-3 h4 {
-        width: 450px;
-        padding-top: 5%;
-        font-size: 14px;
-        font-family: "Rubik";
-        font-weight: 350;
-    }
-    
-    .img-1 h1, .img-2 h1, .img-3 h1 {
-        width: 750px;
-        font-size: 18px;
-        padding-top: 10%;
-        font-family: "Rubik";
-    }
-    
-    .img-2 h4 {
-        width: 1000px;
-        padding-top: 5%;
-        font-size: 14px;
-        font-family: "Rubik";
-        font-weight: 350;
-        padding-left: 50%;
-    }
-    
-    .img-2 h1 {
-        width: 1000px;
-        font-size: 18px;
-        padding-top: 10%;
-        font-family: "Rubik";
-        padding-left: 50%;
-    }
+.dc-1 {
+    color: var(--clr-text);
+    padding: 0px 15%;
+    font-family: "Rubik";
 }
 
-@media screen and (max-width: 1024px) {
-    li, a, button {
-        font-size: 12px;
-    }
-
-    .nav-links-r a {
-        font-weight: 800;
-        font-size: 16px;  
-    }
+.dc-1 h3 {
+    color: var(--clr-text);
+    padding-top: 5%;
+    font-size: 28px;
 }
 
-@media screen and (max-width: 920px) {
-    li, a, button {
-        font-size: 10px;
-    }
-
-    .nav-links-r a {
-        font-weight: 800;
-        font-size: 14px;  
-    }
-}
-
-@media screen and (max-width: 833px) {
-    li, a, button {
-        font-size: 8px;
-    }
-
-    .nav-links-r a {
-        font-weight: 800;
-        font-size: 12px;  
-    }
-}
-
-@media screen and (max-width: 724px) {
-    li, a, button {
-        font-size: 6px;
-    }
-
-    .nav-links-r a {
-        font-weight: 800;
-        font-size: 10px;  
-    }
+.dc-1 p {
+    font-size: 18px;
 }
