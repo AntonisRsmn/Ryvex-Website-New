@@ -257,7 +257,7 @@ textarea:hover {
 }
 
 /* Input / Text Area Main Screen */
-    @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     input, textarea {
         width: 80%;
     }
@@ -298,4 +298,394 @@ form button {
 
 .dc-1 p {
     font-size: 18px;
+}
+
+/* Responsive Screen */
+@media screen and (max-width: 1300px) {
+    .img_1 {
+        width: 600px;
+        height: 300px;
+    }
+
+    .img_2 {
+        width: 600px;
+        height: 350px;
+    }
+    .img_3 {
+        width: 600px;
+        height: 400px;
+    }
+
+    .img-1 h4, .img-3 h4 {
+        width: 90%;
+        padding-top: 5%;
+        font-size: 16px;
+        font-family: "Rubik";
+        font-weight: 350;
+    }
+    
+    .img-1 h1, .img-3 h1 {
+        width: 90%;
+        font-size: 20px;
+        padding-top: 10%;
+        font-family: "Rubik";
+    }
+    
+    .img-2 h4 {
+        width: 90%;
+        padding-top: 5%;
+        font-size: 16px;
+        font-family: "Rubik";
+        font-weight: 350;
+        padding-left: 10%;
+    }
+    
+    .img-2 h1 {
+        width: 90%;
+        font-size: 20px;
+        padding-top: 10%;
+        font-family: "Rubik";
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .img_1 {
+        width: 550px;
+        height: 250px;
+    }
+
+    .img_2 {
+        width: 550px;
+        height: 300px;
+    }
+    .img_3 {
+        width: 550px;
+        height: 350px;
+    }
+
+    .img-1 h4, .img-3 h4 {
+        width: 90%;
+        padding-top: 5%;
+        font-size: 14px;
+        font-family: "Rubik";
+        font-weight: 350;
+    }
+    
+    .img-1 h1, .img-3 h1 {
+        width: 90%;
+        font-size: 18px;
+        padding-top: 10%;
+        font-family: "Rubik";
+    }
+    
+    .img-2 h4 {
+        width: 90%;
+        padding-top: 5%;
+        font-size: 14px;
+        font-family: "Rubik";
+        font-weight: 350;
+        padding-left: 10%;
+    }
+    
+    .img-2 h1 {
+        width: 90%;
+        font-size: 18px;
+        padding-top: 10%;
+        font-family: "Rubik";
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .img_1 {
+        width: 550px;
+        height: 250px;
+    }
+
+    .img_2 {
+        width: 500px;
+        height: 300px;
+    }
+
+    .img_3 {
+        width: 500px;
+        height: 350px;
+    }
+
+    .img-1 h4, .img-3 h4 {
+        width: 90%;
+        padding-top: 5%;
+        font-size: 12px;
+        font-family: "Rubik";
+        font-weight: 350;
+    }
+    
+    .img-1 h1, .img-3 h1 {
+        width: 90%;
+        font-size: 16px;
+        padding-top: 10%;
+        font-family: "Rubik";
+    }
+    
+    .img-2 h4 {
+        width: 90%;
+        padding-top: 5%;
+        font-size: 12px;
+        font-family: "Rubik";
+        font-weight: 350;
+        padding-left: 10%;
+    }
+    
+    .img-2 h1 {
+        width: 90%;
+        font-size: 16px;
+        padding-top: 10%;
+        font-family: "Rubik";
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .img_1 {
+        width: 500px;
+        height: 200px;
+    }
+
+    .img_2 {
+        width: 450px;
+        height: 250px;
+    }
+
+    .img_3 {
+        width: 400px;
+        height: 300px;
+    }
+
+    .img-1 h4, .img-3 h4 {
+        width: 90%;
+        padding-top: 5%;
+        font-size: 10px;
+        font-family: "Rubik";
+        font-weight: 350;
+    }
+    
+    .img-1 h1, .img-3 h1 {
+        width: 90%;
+        font-size: 14px;
+        padding-top: 10%;
+        font-family: "Rubik";
+    }
+    
+    .img-2 h4 {
+        width: 90%;
+        padding-top: 5%;
+        font-size: 10px;
+        font-family: "Rubik";
+        font-weight: 350;
+        padding-left: 10%;
+    }
+    
+    .img-2 h1 {
+        width: 90%;
+        font-size: 14px;
+        padding-top: 10%;
+        font-family: "Rubik";
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .desc {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .img-1, .img-3 {
+        flex-direction: column;
+        display: flex;
+        margin-left: -6%;
+        align-items: center;
+    }
+
+    .img-2 {
+        flex-direction: column;
+        display: flex;
+        margin-left: 4%;
+        align-items: center;
+    }
+
+    .img_1 {
+        width: 450px;
+        height: 250px;
+    }
+
+    .img_2 {
+        width: 400px;
+        height: 250px;
+    }
+
+    .img_3 {
+        width: 400px;
+        height: 300px;
+    }
+
+    .img-1 h4 {
+        width: 50%;
+        padding-top: 5%;
+        font-size: 10px;
+        font-family: "Rubik";
+        font-weight: 350;
+        margin-left: 25%;
+        text-align: center;
+    }
+    
+    .img-1 h1 {
+        width: 50%;
+        font-size: 14px;
+        padding-top: 10%;
+        font-family: "Rubik";
+        margin-left: 25%;
+        text-align: center;
+    }
+    
+    .img-2 h4 {
+        width: 70%;
+        padding-top: 5%;
+        font-size: 10px;
+        font-family: "Rubik";
+        font-weight: 350;
+        margin-left: 10%;
+        text-align: center;
+    }
+    
+    .img-2 h1 {
+        width: 70%;
+        font-size: 14px;
+        padding-top: 10%;
+        font-family: "Rubik";
+        margin-left: 10%;
+        text-align: center;
+    }
+
+    .img-3 h4 {
+        width: 70%;
+        padding-top: 5%;
+        font-size: 10px;
+        font-family: "Rubik";
+        font-weight: 350;
+        align-items: center;
+        margin-left: 15%;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    .img-3 h1 {
+        width: 70%;
+        font-size: 14px;
+        padding-top: 10%;
+        font-family: "Rubik";
+        margin-left: 15%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .desc {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .img-1, .img-3 {
+        flex-direction: column;
+        display: flex;
+        margin-left: -6%;
+        align-items: center;
+    }
+
+    .img-2 {
+        flex-direction: column;
+        display: flex;
+        margin-left: 4%;
+        align-items: center;
+    }
+
+    .img_1 {
+        width: 370px;
+        height: 200px;
+    }
+
+    .img_2 {
+        width: 350px;
+        height: 220px;
+    }
+
+    .img_3 {
+        width: 350px;
+        height: 250px;
+    }
+
+    .img-1 h4 {
+        width: 50%;
+        padding-top: 5%;
+        font-size: 10px;
+        font-family: "Rubik";
+        font-weight: 350;
+        margin-left: 25%;
+        text-align: center;
+    }
+    
+    .img-1 h1 {
+        width: 50%;
+        font-size: 14px;
+        padding-top: 10%;
+        font-family: "Rubik";
+        margin-left: 25%;
+        text-align: center;
+    }
+    
+    .img-2 h4 {
+        width: 70%;
+        padding-top: 5%;
+        font-size: 10px;
+        font-family: "Rubik";
+        font-weight: 350;
+        margin-left: 10%;
+        text-align: center;
+    }
+    
+    .img-2 h1 {
+        width: 70%;
+        font-size: 14px;
+        padding-top: 10%;
+        font-family: "Rubik";
+        margin-left: 10%;
+        text-align: center;
+    }
+
+    .img-3 h4 {
+        width: 70%;
+        padding-top: 5%;
+        font-size: 10px;
+        font-family: "Rubik";
+        font-weight: 350;
+        align-items: center;
+        margin-left: 15%;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    .img-3 h1 {
+        width: 70%;
+        font-size: 14px;
+        padding-top: 10%;
+        font-family: "Rubik";
+        margin-left: 15%;
+        text-align: center;
+    }
+
+    form {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
 }
