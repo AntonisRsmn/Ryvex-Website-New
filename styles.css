@@ -27,6 +27,7 @@ body {
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /* Google Font */
@@ -861,9 +862,5 @@ form button {
 
     footer {
         font-size: 10px;
-    }
-
-    html {
-        overflow-x: hidden;
     }
 }
