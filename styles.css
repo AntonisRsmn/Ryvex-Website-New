@@ -27,7 +27,6 @@ body {
 
 html{
     scroll-behavior: smooth;
-    overflow: hidden;
 }
 
 /* Google Font */
@@ -843,7 +842,6 @@ form button {
         font-weight: 350;
         align-items: center;
         margin-left: 15%;
-        text-align: center;
         padding-bottom: 5%;
     }
 
@@ -863,5 +861,9 @@ form button {
 
     footer {
         font-size: 10px;
+    }
+
+    html {
+        overflow-x: hidden;
     }
 }
