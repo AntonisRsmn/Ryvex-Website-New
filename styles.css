@@ -375,6 +375,10 @@ form button {
         font-family: "Rubik";
         padding-left: 10%;
     }
+
+    footer {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -471,6 +475,10 @@ form button {
         padding-top: 10%;
         font-family: "Rubik";
         padding-left: 10%;
+    }
+
+    footer {
+        font-size: 14px;
     }
 }
 
@@ -665,6 +673,10 @@ form button {
         margin-left: 15%;
         text-align: center;
     }
+
+    footer {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 818px) {
@@ -846,5 +858,9 @@ form button {
     form {
         padding-top: 5%;
         padding-bottom: 5%;
+    }
+
+    footer {
+        font-size: 10px;
     }
 }
