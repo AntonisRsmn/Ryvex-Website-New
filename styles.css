@@ -92,7 +92,7 @@ header {
 button {
     padding: 9px 25px;
     background-color: var(--clr-back-dark);
-    border: 3px solid #fffffe;
+    border: 3px solid var(--clr-text);
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3S ease 0S;
