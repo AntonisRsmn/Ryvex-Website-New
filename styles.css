@@ -6,7 +6,6 @@
     --clr-rgba-primary:rgba(0, 136, 169, 1);
     --clr-rgba-blue-primary:rgba(0, 136, 169, 0.8);
     --clr-black: #000000;
-    --clr-glow: #ffffff;
     --clr-discord: #313338;
 }
 
@@ -99,7 +98,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--clr-glow);
+    background-color: var(--clr-text);
     color: var(--clr-black);
 }
 
@@ -185,7 +184,7 @@ button:hover {
 }
 
 .title button:hover {
-    background-color: var(--clr-glow);
+    background-color: var(--clr-text);
     color: var(--clr-black);
 }
 
