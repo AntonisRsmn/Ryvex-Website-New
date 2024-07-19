@@ -145,8 +145,12 @@ button:hover {
         list-style: none;
     }
 
-    .nav-links, .nav-links-r, .cta {
+    .nav-links, .cta {
         display: none;
+    }
+
+    .nav-links-r {
+        margin-right: auto;
     }
 }
 
