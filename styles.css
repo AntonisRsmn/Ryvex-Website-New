@@ -257,6 +257,9 @@ footer {
     text-align: center;
     padding: 1%;
     font-family: "Rubik";
+    position: absolute;
+    width: 100%;
+    margin-bottom: auto;
 }
   
 /* Contact Form */
@@ -290,12 +293,13 @@ textarea {
     display: flex;
     font-weight: bold;
     font-family: "Rubik";
+    margin-bottom: 5%;
 }
 
 /* Input Hover */
 input:hover {
     background-color: var(--clr-text);
-    color: #000000;
+    color: var(--clr-black);
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -303,7 +307,7 @@ input:hover {
 /* Text Area Hover */
 textarea:hover {
     background-color: var(--clr-text);
-    color: #000000;
+    color: var(--clr-black);
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -317,20 +321,36 @@ textarea:hover {
 
 form h1 {
     color: var(--clr-text);
-    padding-top: 50px;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
+    margin-top: 5%;
     font-family: "Rubik";
+}
+
+@media screen and (max-width: 500px) {
+    form h1 {
+        color: var(--clr-text);
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 10%;
+        margin-top: 5%;
+        font-family: "Rubik";
+    }
+
+    form button {
+        margin-top: 7%;
+    }
 }
 
 form button {
     background-color: var(--clr-background);
     cursor: pointer;
     display: flex;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 3%;
+    margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
     font-family: "Rubik";
@@ -344,7 +364,7 @@ form button {
 
 .dc-1 h3 {
     color: var(--clr-text);
-    padding-top: 5%;
+    padding-top: 10%;
     font-size: 28px;
 }
 
