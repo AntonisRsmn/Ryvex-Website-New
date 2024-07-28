@@ -1,13 +1,28 @@
 :root {
     --clr-text: #fffffe;
+    --clr-text-dark: #ffffff;
     --clr-background: #252525;
     --clr-back-dark: #121212;
+    --clr-back-dark-2: #121212;
     --clr-primary: #505050;
-    --clr-rgba-primary:rgba(0, 136, 169, 1);
-    --clr-rgba-blue-primary:rgba(0, 136, 169, 0.8);
     --clr-black: #000000;
     --clr-discord: #313338;
+    --cls-svg: #fffffe;
+    --cls-svg-dark: #000000;
 }
+
+.darkmode {
+    --clr-text: #000000;
+    --clr-text-dark: #000000;
+    --clr-background: #d6d6d6;
+    --clr-back-dark: #f4f4f4;
+    --clr-back-dark-2: #121212;
+    --clr-primary: #0000008f;
+    --clr-black: #ffffff;
+    --clr-discord: #ffffff;
+    --cls-svg: #000000;
+    --cls-svg-dark: #fffffe;
+}   
 
 *,
 *::before,
@@ -27,6 +42,29 @@ body {
 html, body{
     scroll-behavior: smooth;
     overflow-x: hidden;
+}
+
+svg path {
+    fill: var(--cls-svg);
+}
+
+#theme-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+#theme-switch svg:first-child {
+    display: none;
+}
+
+.darkmode #theme-switch svg:last-child {
+    display: none;
+}
+
+.darkmode #theme-switch svg:first-child {
+    display: block;
 }
 
 /* Google Font */
@@ -190,7 +228,7 @@ button:hover {
 
 .logo {
     border-radius: 20px;
-    box-shadow: 3px 3px 3px 3px var(--clr-back-dark);
+    box-shadow: 3px 3px 3px 3px var(--clr-back-dark-2);
 }
 
 /* Description/Images */
@@ -199,7 +237,7 @@ button:hover {
 }
 
 .img-1, .img-3 {
-    color: var(--clr-text);
+    color: var(--clr-text-dark);
     display: flex;
     padding-left: 5%;
     padding-top: 2%;
@@ -208,7 +246,7 @@ button:hover {
 }
 
 .img-2 {
-    color: var(--clr-text);
+    color: var(--clr-text-dark);
     display: flex;
     flex-direction: row-reverse;
     padding-right: 5%;
