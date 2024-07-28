@@ -14,14 +14,14 @@
 .darkmode {
     --clr-text: #000000;
     --clr-text-dark: #000000;
-    --clr-background: #d6d6d6;
-    --clr-back-dark: #f4f4f4;
+    --clr-background: #f1f1f1;
+    --clr-back-dark: #e5e5e5;
     --clr-back-dark-2: #121212;
     --clr-primary: #0000008f;
     --clr-black: #ffffff;
     --clr-discord: #ffffff;
     --cls-svg: #000000;
-    --cls-svg-dark: #fffffe;
+    --cls-svg-dark: #ffffff;
 }   
 
 *,
@@ -44,10 +44,12 @@ html, body{
     overflow-x: hidden;
 }
 
+/* Svg Fill Color */
 svg path {
     fill: var(--cls-svg);
 }
 
+/* Darkmode Switch */
 #theme-switch {
     display: flex;
     justify-content: center;
