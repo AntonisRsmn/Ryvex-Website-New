@@ -193,6 +193,10 @@ button:hover {
     }
 }
 
+.img5 {
+    display: none;
+}
+
 /* Ryvex */
 .ryvex {
     color: var(--clr-text);
