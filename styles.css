@@ -293,16 +293,28 @@ button:hover {
     padding-left: 10%;
 }
 
-/* Footer */
-footer {
+.footer {
+    padding: 20px 0;
     background-color: var(--clr-back-dark);
     color: var(--clr-text);
     text-align: center;
-    padding: 1%;
-    font-family: "Rubik";
-    position: absolute;
-    width: 100%;
-    margin-bottom: auto;
+    box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer .social-icons {
+    margin-bottom: 10px;
+}
+
+.footer .social-icons img {
+    transition: transform 0.3s ease;
+}
+
+.footer .social-icons img:hover {
+    transform: scale(1.2) rotate(10deg);
+}
+
+.footer p {
+    margin: 0;
 }
   
 /* Contact Form */
